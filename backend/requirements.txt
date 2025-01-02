@@ -1,6 +1,5 @@
 black
 fastapi
 gunicorn
-mypy
 ruff
 uvicorn
