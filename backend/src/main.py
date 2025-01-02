@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 
-from .api import health_router, llama_router
+from .api.health import router as health_router
+from .api.llama import router as llama_router
 
 
 app = FastAPI()
